@@ -2,8 +2,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
+    font-size: 50px;
+} 
+h2{
     font-size: 40px;
-}    
+}   
 .my-name{
     color: aqua;
 }
@@ -11,9 +14,10 @@ h1{
     width: 50%;
     padding-left:5%;
 }
-section{
+.flexible-things{
     display: flex;
     margin-bottom: 150px;
+   
 
 }
 .half-space img{
@@ -39,4 +43,28 @@ body{
    background-image: url(images/dream-bg.png);
    background-repeat: no-repeat;
    background-position: right;
+}
+.box-shadow{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:5%;
+    box-shadow: 20px 20px 50px gray;
+    border-radius: 15px;
+
+}
+#full-stack{
+border-left: 10px solid tomato;
+}
+#baby-developer{
+border-left: 10px solid blue;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+}
+footer{
+    text-align: center;
 }
